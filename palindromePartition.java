@@ -8,6 +8,7 @@
  *            or = 1 + dp[j+1], if substring(i, j) is a palindrome ( i < j < n )
  * Moreover, checking palindrome can be solved by dynamic-programming as well
  * substring(i, j) is palindrome if charAt(i) == charAt(j-1) && subtring(i+1,j-1) is palindrome.
+ * => O(n^2)
  */
  
 public class Solution {
