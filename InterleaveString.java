@@ -21,6 +21,6 @@ public class Solution {
         }
     }
 
-    return isInter[s1.length()][s2.length()];
+        return isInter[s1.length()][s2.length()];
     }
 }
